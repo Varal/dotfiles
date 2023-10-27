@@ -32,7 +32,10 @@ source $ZDOTDIR/aliases
 source $ZDOTDIR/bindings
 
 ### Ruby rbenv
-eval "$(/home/varal/.rbenv/bin/rbenv init - zsh)"
+eval "$(~/.rbenv/bin/rbenv init - zsh)"
+
+### Vim
+export VIMINIT='source $XDG_CONFIG_HOME/vim/vimrc'
 
 ### Prompt
 PROMPT='%B%F{blue}%~%f %F{green}>%f%b '

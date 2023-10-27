@@ -1,0 +1,13 @@
+set nu
+set shiftwidth=4
+set tabstop=4
+set expandtab
+set nowrap
+set incsearch
+set ignorecase
+set smartcase
+
+syntax on
+filetype on
+filetype plugin on
+
