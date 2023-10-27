@@ -1,0 +1,21 @@
+### ls
+alias ls='ls --color=auto'
+alias l='ls -lF'
+alias ll='ls -lahF'
+
+### grep
+alias grep='grep --color=auto'
+alias fgrep='fgrep --color=auto'
+alias egrep='egrep --color=auto'
+
+### kubernetes
+alias k=kubectl
+
+alias kdpo='k describe po'
+alias kdcm='k describe cm'
+alias kdd='k describe deploy'
+
+alias kgpo='k get po'
+alias kgcm='k get cm'
+alias kgd='k get deploy'
+
