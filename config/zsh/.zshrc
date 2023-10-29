@@ -37,5 +37,8 @@ eval "$(~/.rbenv/bin/rbenv init - zsh)"
 ### Vim
 export VIMINIT='source $XDG_CONFIG_HOME/vim/vimrc'
 
+### Homebrew
+export PATH=/opt/homebrew/bin:$PATH
+
 ### Prompt
 PROMPT='%B%F{blue}%~%f %F{green}>%f%b '
