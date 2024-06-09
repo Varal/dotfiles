@@ -75,3 +75,11 @@ zstyle ':completion:*:*:kubectl:*' list-grouped false
 # Telepresence
 source <(telepresence completion zsh)
 zstyle ':completion:*:*:telepresence:*' list-grouped false
+
+# Terraform
+complete -o nospace -C /opt/homebrew/bin/terraform terraform
+zstyle ':completion:*:*:telepresence:*' list-grouped false
+
+# Terragrunt
+complete -o nospace -C /opt/homebrew/bin/terragrunt terragrunt
+zstyle ':completion:*:*:telepresence:*' list-grouped false
