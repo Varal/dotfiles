@@ -41,7 +41,7 @@ export VIMINIT='source $XDG_CONFIG_HOME/vim/vimrc'
 export PATH=/opt/homebrew/bin:$PATH
 
 ### GNU sed
-export PATH=/opt/homebrew/opt/gnu-sed/libexec/gnubin:$PATH
+export PATH=/usr/local/opt/gnu-sed/libexec/gnubin:$PATH
 
 ### Prompt
 PROMPT='%B%F{blue}%~%f %F{green}>%f%b '
