@@ -11,9 +11,11 @@ alias egrep='egrep --color=auto'
 ### git
 alias g='git'
 alias ga='git add'
+alias gb='git branch'
 alias gc='git checkout'
 alias gco='git commit -m'
 alias gp='git push'
+alias gs='git status'
 
 ### kubernetes
 alias k=kubectl
