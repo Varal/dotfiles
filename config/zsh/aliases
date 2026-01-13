@@ -8,6 +8,13 @@ alias grep='grep --color=auto'
 alias fgrep='fgrep --color=auto'
 alias egrep='egrep --color=auto'
 
+### git
+alias g='git'
+alias ga='git add'
+alias gc='git checkout'
+alias gco='git commit -m'
+alias gp='git push'
+
 ### kubernetes
 alias k=kubectl
 
