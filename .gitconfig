@@ -1,0 +1,21 @@
+[user] 
+  email = pawel.maszota@softwaremill.com 
+  name = Pawel Maszota 
+[merge] 
+  tool = vscode 
+[mergetool "vscode"] 
+  cmd = code --wait $MERGED 
+[diff] 
+  tool = vscode 
+[difftool "vscode"] 
+  cmd = code --wait --diff $LOCAL $REMOTE 
+# [filter "lfs"] 
+#   clean = git-lfs clean -- %f 
+#   smudge = git-lfs smudge --skip -- %f 
+#   process = git-lfs filter-process --skip 
+#   required = true
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true

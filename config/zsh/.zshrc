@@ -31,8 +31,8 @@ source $ZDOTDIR/aliases
 ### Key binding
 source $ZDOTDIR/bindings
 
-### Ruby rbenv
-eval "$(~/.rbenv/bin/rbenv init - zsh)"
+### Chef rbenv
+eval "$(chef shell-init zsh)"
 
 ### Vim
 export VIMINIT='source $XDG_CONFIG_HOME/vim/vimrc'

@@ -58,22 +58,22 @@ zstyle ':completion:*:*:docker:*' option-stacking yes
 zstyle ':completion:*:*:docker-*:*' option-stacking yes
 
 # flux
-source <(flux completion zsh)
+#source <(flux completion zsh)
 
 # gcloud CLI
-source /usr/share/google-cloud-sdk/completion.zsh.inc
+#source /usr/share/google-cloud-sdk/completion.zsh.inc
 zstyle ':completion:*:*:flux:*' list-grouped false
 
 # Helm
-source <(helm completion zsh)
+#source <(helm completion zsh)
 zstyle ':completion:*:*:helm:*' list-grouped false
 
 # Kubernetes
-source <(kubectl completion zsh)
+#source <(kubectl completion zsh)
 zstyle ':completion:*:*:kubectl:*' list-grouped false
 
 # Telepresence
-source <(telepresence completion zsh)
+#source <(telepresence completion zsh)
 zstyle ':completion:*:*:telepresence:*' list-grouped false
 
 # Terraform
